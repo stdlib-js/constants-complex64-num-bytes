@@ -74,6 +74,23 @@ console.log( COMPLEX64_NUM_BYTES );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/constants/complex128/num-bytes`][@stdlib/constants/complex128/num-bytes]: size (in bytes) of a 128-bit complex number.
+-   [`@stdlib/constants/float32/num-bytes`][@stdlib/constants/float32/num-bytes]: size (in bytes) of a single-precision floating-point number.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -128,6 +145,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-complex64-num-bytes/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/constants/complex128/num-bytes]: https://github.com/stdlib-js/constants-complex128-num-bytes
+
+[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes
+
+<!-- </related-links> -->
 
 </section>
 
