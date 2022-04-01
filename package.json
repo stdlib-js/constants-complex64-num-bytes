@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/constants-complex64-num-bytes",
+  "version": "0.0.0",
+  "description": "Size (in bytes) of a 64-bit complex number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-complex64-num-bytes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "mathematics",
+    "math",
+    "single",
+    "single-precision",
+    "complex",
+    "cmplx",
+    "complex64",
+    "64-bit",
+    "64bit",
+    "size",
+    "sizeof",
+    "size-of",
+    "bytes",
+    "nbytes",
+    "bits"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
