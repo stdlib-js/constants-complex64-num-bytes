@@ -24,38 +24,30 @@ limitations under the License.
 
 > Size (in bytes) of a 64-bit complex number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-complex64-num-bytes
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-COMPLEX64_NUM_BYTES = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var COMPLEX64_NUM_BYTES = require( 'path/to/vendor/umd/constants-complex64-num-bytes/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.COMPLEX64_NUM_BYTES;
-})();
-</script>
+var COMPLEX64_NUM_BYTES = require( '@stdlib/constants-complex64-num-bytes' );
 ```
 
 #### COMPLEX64_NUM_BYTES
@@ -79,21 +71,11 @@ var bool = ( COMPLEX64_NUM_BYTES === 8 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var COMPLEX64_NUM_BYTES = require( '@stdlib/constants-complex64-num-bytes' );
 
 console.log( COMPLEX64_NUM_BYTES );
 // => 8
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -186,9 +168,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/complex128/num-bytes]: https://github.com/stdlib-js/constants-complex128-num-bytes/tree/umd
+[@stdlib/constants/complex128/num-bytes]: https://github.com/stdlib-js/constants-complex128-num-bytes
 
-[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes/tree/umd
+[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes
 
 <!-- </related-links> -->
 
