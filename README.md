@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-complex64-num-bytes/tags). For example,
+
+```javascript
 import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@v0.1.0-esm/index.mjs';
 ```
 
@@ -72,7 +77,7 @@ var bool = ( COMPLEX64_NUM_BYTES === 8 );
 <body>
 <script type="module">
 
-import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@v0.1.0-esm/index.mjs';
+import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@esm/index.mjs';
 
 console.log( COMPLEX64_NUM_BYTES );
 // => 8
