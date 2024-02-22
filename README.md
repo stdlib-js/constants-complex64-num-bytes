@@ -35,19 +35,32 @@ limitations under the License.
 
 > Size (in bytes) of a 64-bit complex number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-complex64-num-bytes
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-complex64-num-bytes/tags). For example,
-
-```javascript
-import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@v0.2.0-esm/index.mjs';
+var COMPLEX64_NUM_BYTES = require( '@stdlib/constants-complex64-num-bytes' );
 ```
 
 #### COMPLEX64_NUM_BYTES
@@ -71,20 +84,11 @@ var bool = ( COMPLEX64_NUM_BYTES === 8 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@esm/index.mjs';
+```javascript
+var COMPLEX64_NUM_BYTES = require( '@stdlib/constants-complex64-num-bytes' );
 
 console.log( COMPLEX64_NUM_BYTES );
 // => 8
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -93,7 +97,57 @@ console.log( COMPLEX64_NUM_BYTES );
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/constants/complex64/num_bytes.h"
+```
+
+#### STDLIB_CONSTANT_COMPLEX64_NUM_BYTES
+
+Macro for the size (in bytes) of a 64-bit complex number.
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -119,7 +173,7 @@ console.log( COMPLEX64_NUM_BYTES );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -149,8 +203,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/constants-complex64-num-bytes.svg
 [npm-url]: https://npmjs.org/package/@stdlib/constants-complex64-num-bytes
 
-[test-image]: https://github.com/stdlib-js/constants-complex64-num-bytes/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/constants-complex64-num-bytes/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/constants-complex64-num-bytes/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/constants-complex64-num-bytes/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/constants-complex64-num-bytes/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/constants-complex64-num-bytes?branch=main
@@ -184,9 +238,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/complex128/num-bytes]: https://github.com/stdlib-js/constants-complex128-num-bytes/tree/esm
+[@stdlib/constants/complex128/num-bytes]: https://github.com/stdlib-js/constants-complex128-num-bytes
 
-[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes/tree/esm
+[@stdlib/constants/float32/num-bytes]: https://github.com/stdlib-js/constants-float32-num-bytes
 
 <!-- </related-links> -->
 
