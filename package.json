@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-complex64-num-bytes",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Size (in bytes) of a 64-bit complex number.",
   "license": "Apache-2.0",
   "author": {
