@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-complex64-num-bytes/tags). For example,
+
+```javascript
 import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@v0.2.3-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( COMPLEX64_NUM_BYTES === 8 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@v0.2.3-deno/mod.js';
+import COMPLEX64_NUM_BYTES from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-complex64-num-bytes@deno/mod.js';
 
 console.log( COMPLEX64_NUM_BYTES );
 // => 8
